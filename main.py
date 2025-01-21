@@ -82,7 +82,8 @@ crew = Crew(
     agents = [agile_coach_agent, scrum_master_agent, product_owner_agent, developer_agent],
     tasks = [agile_coaching_task, scrum_master_task, product_owner_task, developer_task],
     process = 'sequential',
-    verbose = 2
+    verbose = True,
+    
 )
 
 result = crew.kickoff()
